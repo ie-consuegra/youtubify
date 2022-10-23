@@ -1,0 +1,42 @@
+/* Play controls panel */
+.ytp-chrome-bottom {
+  opacity: 1;
+  position: fixed;
+  background-color: black;
+  width: 98%;
+}
+
+.ytp-play-button.ytp-button {
+  padding: 5px;
+}
+
+.ytp-play-button.ytp-button > svg {
+  border-radius: 50%;
+  outline: white 2px solid;
+}
+
+.ytp-subtitles-button.ytp-button {
+  display: none;
+}
+
+.ytp-fullscreen-button.ytp-button {
+  display: none;
+}
+
+.ytp-miniplayer-button.ytp-button {
+  display: none;
+}
+
+.ytp-size-button.ytp-button {
+  display: none;
+
+
+/* Comment section */
+ytd-comments {
+  display: none;
+}
+
+/* Recommended videos */
+#text.ytd-channel-name {
+  display: none;
+}
