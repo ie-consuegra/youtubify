@@ -4,6 +4,7 @@ div.ytp-chrome-bottom {
   position: fixed;
   background-color: black;
   width: 98% !important;
+  z-index: 1000;
 }
 
 .ytp-left-controls > .ytp-play-button.ytp-button {
@@ -29,6 +30,12 @@ div.ytp-chrome-bottom {
 
 .ytp-right-controls > .ytp-size-button.ytp-button {
   display: none;
+}
+
+/* Send other divs to back */
+div#player {
+  position: relative;
+  z-index: 1;
 }
 
 /* Comment section */
