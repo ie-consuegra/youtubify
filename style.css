@@ -1,12 +1,12 @@
 /* Play controls panel */
-.ytp-chrome-bottom {
-  opacity: 1;
+div.ytp-chrome-bottom {
+  opacity: 1 !important;
   position: fixed;
   background-color: black;
-  width: 98%;
+  width: 98% !important;
 }
 
-.ytp-play-button.ytp-button {
+.ytp-left-controls > .ytp-play-button.ytp-button {
   padding: 5px;
 }
 
@@ -15,28 +15,28 @@
   outline: white 2px solid;
 }
 
-.ytp-subtitles-button.ytp-button {
+.ytp-right-controls > .ytp-subtitles-button.ytp-button {
   display: none;
 }
 
-.ytp-fullscreen-button.ytp-button {
+.ytp-right-controls > .ytp-fullscreen-button.ytp-button {
   display: none;
 }
 
-.ytp-miniplayer-button.ytp-button {
+.ytp-right-controls > .ytp-miniplayer-button.ytp-button {
   display: none;
 }
 
-.ytp-size-button.ytp-button {
+.ytp-right-controls > .ytp-size-button.ytp-button {
   display: none;
-
+}
 
 /* Comment section */
-ytd-comments {
+ytd-comments#comments {
   display: none;
 }
 
 /* Recommended videos */
-#text.ytd-channel-name {
+#text-container > #text.ytd-channel-name {
   display: none;
 }
