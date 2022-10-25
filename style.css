@@ -45,6 +45,28 @@ ytd-comments#comments {
 }
 
 /* Recommended videos */
-#text-container > #text.ytd-channel-name {
+/* Channel name */
+div#byline-container {
+  z-index: 0;
+}
+
+/* Playback and progress bar on thumbnails*/
+ytd-thumbnail-overlay-resume-playback-renderer {
+  z-index: 0 !important;
+}
+
+/* Thumbnail size */
+ytd-thumbnail, ytd-playlist-thumbnail {
+  height: 69px !important;
+  width: 139px !important;
+}
+
+/* Number of views and year of publication */
+#metadata-line.ytd-video-meta-block span.ytd-video-meta-block {
+  display: none !important;
+}
+
+/* Avatar picture*/
+a#avatar-link {
   display: none;
 }
