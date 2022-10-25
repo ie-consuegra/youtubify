@@ -1,9 +1,10 @@
 /* Play controls panel */
 div.ytp-chrome-bottom {
+  left: 0 !important;
   opacity: 1 !important;
   position: fixed;
-  background-color: black;
-  width: 98% !important;
+  background-color: #282828;
+  width: 100% !important;
   z-index: 1000;
 }
 
