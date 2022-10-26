@@ -70,3 +70,28 @@ ytd-thumbnail, ytd-playlist-thumbnail {
 a#avatar-link {
   display: none;
 }
+
+/* Video player */
+div#player-container-outer {
+  max-width: 200px !important;
+  min-width: 150px !important;
+  margin-left: 0 !important;
+}
+
+video.video-stream.html5-main-video {
+  height: fit-content !important;
+  width: 100% !important;
+}
+
+/* Video title */
+h1.title.style-scope.ytd-video-primary-info-renderer {
+  position: absolute;
+  top: 80px;
+  left: 240px;
+}
+
+@media only screen and (min-width: 1756px) {
+  h1.title.style-scope.ytd-video-primary-info-renderer {
+    left: 17%;
+  }
+}
