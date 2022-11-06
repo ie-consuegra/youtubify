@@ -33,6 +33,11 @@ div.ytp-chrome-bottom {
   display: none;
 }
 
+.ytp-volume-panel {
+  width: 52px !important;
+  margin-right: 3px;
+}
+
 /* Send other divs to back */
 div#player {
   position: relative;
