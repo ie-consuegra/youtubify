@@ -91,7 +91,7 @@ video.video-stream.html5-main-video {
 /* Video title */
 h1.title.style-scope.ytd-video-primary-info-renderer, h1.style-scope.ytd-watch-metadata {
   position: absolute;
-  top: 80px;
+  top: -110px;
   left: 240px;
 }
 
